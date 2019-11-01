@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.2.0](https://github.com/StarOfService/kitsu/tree/master/packages/kitsu/compare/v7.1.0...v7.2.0) (2019-11-01)
+
+
+### Chores
+
+* **release:** update documentation ([5ca9deb](https://github.com/StarOfService/kitsu/tree/master/packages/kitsu/commit/5ca9deb))
+
+
+### New Features
+
+* skip nulls, fix booleans ([ab33067](https://github.com/StarOfService/kitsu/tree/master/packages/kitsu/commit/ab33067))
+
+
+
+
+
 # [7.1.0](https://github.com/wopian/kitsu/tree/master/packages/kitsu/compare/v7.0.4...v7.1.0) (2019-10-15)
 
 

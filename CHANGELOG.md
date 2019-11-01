@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.2.0](https://github.com/StarOfService/kitsu/compare/v7.1.0...v7.2.0) (2019-11-01)
+
+
+### Build System / Dependencies
+
+* update devdependency lerna to ~3.18.0 ([#335](https://github.com/StarOfService/kitsu/issues/335)) ([6f6d4a6](https://github.com/StarOfService/kitsu/commit/6f6d4a6))
+* update devdependency rollup to ~1.24.0 ([#332](https://github.com/StarOfService/kitsu/issues/332)) ([481e20d](https://github.com/StarOfService/kitsu/commit/481e20d))
+* update devdependency rollup to ~1.25.0 ([#337](https://github.com/StarOfService/kitsu/issues/337)) ([56097bd](https://github.com/StarOfService/kitsu/commit/56097bd))
+
+
+### Chores
+
+* update lockfile ([7a68a96](https://github.com/StarOfService/kitsu/commit/7a68a96))
+* **release:** update documentation ([5ca9deb](https://github.com/StarOfService/kitsu/commit/5ca9deb))
+
+
+### New Features
+
+* skip nulls, fix booleans ([ab33067](https://github.com/StarOfService/kitsu/commit/ab33067))
+
+
+
+
+
 # [7.1.0](https://github.com/wopian/kitsu/compare/v7.0.4...v7.1.0) (2019-10-15)
 
 
