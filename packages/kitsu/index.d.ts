@@ -78,7 +78,12 @@ interface GetOptions {
    * for descending order) -
    * [JSON:API Sorting](http://jsonapi.org/format/#fetching-sorting)
    */
-  sort?: string;
+  sort?:
+    | string
+    | {
+        direction: "" | "-";
+        field: string;
+      };
 
   /**
    * Include relationship data -
