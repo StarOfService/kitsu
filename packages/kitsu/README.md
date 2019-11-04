@@ -199,7 +199,7 @@ If you're working with [Kitsu.io]'s API, their [API docs][kitsu.io api docs] lis
 
 ### Kitsu
 
-[packages/kitsu/src/index.js:30-292](https://github.com/StarOfService/kitsu/blob/13b24b062968ecc96e13213863323e284114690d/packages/kitsu/src/index.js#L30-L292 "Source code on GitHub")
+[packages/kitsu/src/index.js:30-292](https://github.com/StarOfService/kitsu/blob/90ea0793267cf22e62a14a7b23de849818a0ac16/packages/kitsu/src/index.js#L30-L292 "Source code on GitHub")
 
 Creates a new `kitsu` instance
 
@@ -246,7 +246,7 @@ const api = new Kitsu({
 
 #### plural
 
-[packages/kitsu/src/index.js:52-53](https://github.com/StarOfService/kitsu/blob/13b24b062968ecc96e13213863323e284114690d/packages/kitsu/src/index.js#L52-L53 "Source code on GitHub")
+[packages/kitsu/src/index.js:52-53](https://github.com/StarOfService/kitsu/blob/90ea0793267cf22e62a14a7b23de849818a0ac16/packages/kitsu/src/index.js#L52-L53 "Source code on GitHub")
 
 -   **See: <https://www.npmjs.com/package/pluralize> for documentation**
 -   **See: Kitsu constructor options for disabling pluralization**
@@ -266,7 +266,7 @@ api.plural.plural('paper') //=> 'paper'
 
 #### headers
 
-[packages/kitsu/src/index.js:67-67](https://github.com/StarOfService/kitsu/blob/13b24b062968ecc96e13213863323e284114690d/packages/kitsu/src/index.js#L67-L67 "Source code on GitHub")
+[packages/kitsu/src/index.js:67-67](https://github.com/StarOfService/kitsu/blob/90ea0793267cf22e62a14a7b23de849818a0ac16/packages/kitsu/src/index.js#L67-L67 "Source code on GitHub")
 
 Get the current headers or add additional headers
 
@@ -297,7 +297,7 @@ Returns **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 #### get
 
-[packages/kitsu/src/index.js:152-171](https://github.com/StarOfService/kitsu/blob/13b24b062968ecc96e13213863323e284114690d/packages/kitsu/src/index.js#L152-L171 "Source code on GitHub")
+[packages/kitsu/src/index.js:152-171](https://github.com/StarOfService/kitsu/blob/90ea0793267cf22e62a14a7b23de849818a0ac16/packages/kitsu/src/index.js#L152-L171 "Source code on GitHub")
 
 Fetch resources (alias `fetch`)
 
@@ -409,7 +409,7 @@ Returns **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 #### patch
 
-[packages/kitsu/src/index.js:187-201](https://github.com/StarOfService/kitsu/blob/13b24b062968ecc96e13213863323e284114690d/packages/kitsu/src/index.js#L187-L201 "Source code on GitHub")
+[packages/kitsu/src/index.js:187-201](https://github.com/StarOfService/kitsu/blob/90ea0793267cf22e62a14a7b23de849818a0ac16/packages/kitsu/src/index.js#L187-L201 "Source code on GitHub")
 
 Update a resource (alias `update`)
 
@@ -435,7 +435,7 @@ Returns **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 #### post
 
-[packages/kitsu/src/index.js:224-237](https://github.com/StarOfService/kitsu/blob/13b24b062968ecc96e13213863323e284114690d/packages/kitsu/src/index.js#L224-L237 "Source code on GitHub")
+[packages/kitsu/src/index.js:224-237](https://github.com/StarOfService/kitsu/blob/90ea0793267cf22e62a14a7b23de849818a0ac16/packages/kitsu/src/index.js#L224-L237 "Source code on GitHub")
 
 Create a new resource (alias `create`)
 
@@ -468,7 +468,7 @@ Returns **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 #### delete
 
-[packages/kitsu/src/index.js:250-262](https://github.com/StarOfService/kitsu/blob/13b24b062968ecc96e13213863323e284114690d/packages/kitsu/src/index.js#L250-L262 "Source code on GitHub")
+[packages/kitsu/src/index.js:250-262](https://github.com/StarOfService/kitsu/blob/90ea0793267cf22e62a14a7b23de849818a0ac16/packages/kitsu/src/index.js#L250-L262 "Source code on GitHub")
 
 Remove a resource (alias `remove`)
 
@@ -491,7 +491,7 @@ Returns **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 #### self
 
-[packages/kitsu/src/index.js:284-291](https://github.com/StarOfService/kitsu/blob/13b24b062968ecc96e13213863323e284114690d/packages/kitsu/src/index.js#L284-L291 "Source code on GitHub")
+[packages/kitsu/src/index.js:284-291](https://github.com/StarOfService/kitsu/blob/90ea0793267cf22e62a14a7b23de849818a0ac16/packages/kitsu/src/index.js#L284-L291 "Source code on GitHub")
 
 Get the authenticated user's data
 
