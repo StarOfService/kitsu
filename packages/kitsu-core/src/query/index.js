@@ -23,12 +23,18 @@ export function query (params, prefix = null) {
 
   for (const param in params) {
     if (params.hasOwnProperty(param)) {
+      const paramValue = params[param]
+
       // Skip inclusion of null or undefined keys.
-      if (params[param] === null || params[param] === undefined) continue
+      if (paramValue === null || paramValue === undefined) continue
 
       // Remap booleans to integers.
-      if (params[param] === true) params[param] = 1
-      if (params[param] === false) params[param] = 0
+      if (paramValue === true) params[param] = 1
+      if (paramValue === false) params[param] = 0
+
+      if (param === 'sort' && typeof paramValue === 'object') {
+        params[param] = `${paramValue.direction}${paramValue.field}`
+      }
 
       str.push(
         queryFormat(params[param], prefix ? `${prefix}[${param}]` : param)

@@ -27,7 +27,8 @@ describe('kitsu-core', () => {
           alpha: 'yes',
           beta: null,
           delta: undefined
-        }
+        },
+        sort: null
       })).toEqual('filter%5Bslug%5D=cowboy-bebop&filter%5Balpha%5D=yes')
     })
 
@@ -81,6 +82,17 @@ describe('kitsu-core', () => {
           }
         }
       })).toEqual('fields%5Babc%5D%5Bdef%5D%5Bghi%5D%5Bjkl%5D=mno')
+    })
+
+    it('builds sort parameter from an object', () => {
+      expect.assertions(1)
+      expect(query({
+        page: { limit: 1 },
+        sort: {
+          direction: '-',
+          field: 'popularityRank'
+        }
+      })).toEqual('page%5Blimit%5D=1&sort=-popularityRank')
     })
   })
 })
