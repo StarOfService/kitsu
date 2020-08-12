@@ -92,7 +92,7 @@ interface GetOptions {
   include?: string;
 }
 
-declare class Kitsu {
+export declare class Kitsu {
   constructor(options: Options);
 
   delete(...args: any[]): void;
