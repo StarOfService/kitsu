@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.5.0](https://github.com/StarOfService/kitsu/tree/master/packages/kitsu/compare/v7.4.0...v7.5.0) (2020-08-12)
+
+
+### Chores
+
+* **release:** update documentation ([44f893b](https://github.com/StarOfService/kitsu/tree/master/packages/kitsu/commit/44f893b))
+
+
+### New Features
+
+* export Kitsu as a constant ([dc17690](https://github.com/StarOfService/kitsu/tree/master/packages/kitsu/commit/dc17690))
+
+
+
+
+
 # [7.4.0](https://github.com/StarOfService/kitsu/tree/master/packages/kitsu/compare/v7.3.0...v7.4.0) (2019-11-04)
 
 
